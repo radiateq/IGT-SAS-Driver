@@ -5,7 +5,10 @@ Project was written in 2007 in very limited timeframe on Linux environment.
 SAS protocol specifications are difficult and that is stated in documentation it self.
 Full compliance with Official SAS Tester has been achieved where required by protocol and possible due to missing hardware or other systems and information.
 Tested using virtual COM port. 9-bit hardware UART not tested.
-Code should be bug free.
+Code should be bug free, but no guarantees.
+
+Demo application is in demo folder, run with parameter "COMn" where n is number of port, or without parameter for COM1. Tested with official SASTester using virtual serial driver. Uses VC Redistributable 2019, x64.
+For full sources contact at igor.feher@gmail.com
 
 Implemented Features:
 
